@@ -192,7 +192,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Resources
 - **🤗 ICT Model**: [8y/ICT - Text-Image Alignment Model](https://huggingface.co/8y/ICT)
 - **🤗 HP Model**: [8y/HP - Aesthetic Quality Model](https://huggingface.co/8y/HP)
-- **📊 Dataset**: [Pick-High Dataset on Hugging Face](https://huggingface.co/datasets/8y/Pick-High-Dataset)
 - **📄 Paper**: [Enhancing Reward Models for High-quality Image Generation: Beyond Text-Image Alignment](https://arxiv.org/abs/2507.19002)
 - **🔗 Base Project**: [PickScore - Pick-a-Pic Dataset and PickScore Model](https://github.com/yuvalkirstain/PickScore)
 
