@@ -1,0 +1,31 @@
+# @package _global_
+
+defaults:
+  - /experiment/clip
+
+task:
+  _target_: trainer.tasks.ict_task.ICTTask
+
+accelerator:
+  project_name: experiment
+  max_steps: 5000
+  metric_mode: MetricMode.MIN
+  metric_name:  total_loss
+
+output_dir: outputs
+
+model:
+  pretrained_model_name_or_path: laion/CLIP-ViT-H-14-laion2B-s32B-b79K
+  hidden_dim: 1024
+  fix_rate: 0
+
+dataset:
+  dataset_name: .path/to/Pick-High-Dataset/Pick-High/
+  easy_folder: .path/to/Pick-High-Dataset/pick_easy_img
+  refine_folder: .path/to/Pick-High-Dataset/pick_refine_img
+
+criterion:
+  _target_: trainer.criterions.icthp_criterion.ICTHPCriterion
+  loss_ict: True
+  loss_hp: False
+  loss_icthp: False

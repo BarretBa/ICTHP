@@ -1,0 +1,1 @@
+accelerate launch --dynamo_backend no --gpu_ids 0,1,2,3,4,5,6,7 --num_processes 8 --num_machines 1 --use_deepspeed --main_process_port 20639  trainer/scripts/train_ict.py +experiment=train_ict output_dir=path/to/ckpt_ict
