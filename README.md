@@ -44,10 +44,12 @@ The **High-Preference (HP) Reward Model** leverages a fine-tuned CLIP backbone c
 
 
 <div align="center">
-
-[![🎨 Pick-High Dataset](https://img.shields.io/badge/🎨-Pick--High%20Dataset-orange.svg?style=for-the-badge)](https://huggingface.co/datasets/8y/Pick-High-Dataset)
-
+  
+[![⭐ HP Model](https://img.shields.io/badge/⭐-HP%20Reward%20Model-blue.svg?style=for-the-badge)](https://huggingface.co/8y/HP)
 </div>
+
+
+
 
 
 ### 🎨 Pick-High Dataset
@@ -56,8 +58,10 @@ The **High-Preference (HP) Reward Model** leverages a fine-tuned CLIP backbone c
 
 <div align="center">
 
-![🎨 Pick-High Dataset](https://img.shields.io/badge/🎨-Pick--High%20Dataset%20-orange.svg?style=for-the-badge)(https://huggingface.co/8y/HP)]
+[![🎨 Pick-High Dataset](https://img.shields.io/badge/🎨-Pick--High%20Dataset-orange.svg?style=for-the-badge)](https://huggingface.co/datasets/8y/HP)
+
 </div>
+
 
 ## 🛠️ Installation
 
