@@ -42,10 +42,13 @@ The **Image-Contained-Text (ICT) Reward Model** employs a novel contrastive lear
 
 The **High-Preference (HP) Reward Model** leverages a fine-tuned CLIP backbone coupled with a specialized Multi-Layer Perceptron to predict human aesthetic preferences from pure visual modality. Trained with margin ranking loss on preference triplets, HP provides orthogonal quality assessment that captures aesthetic nuances beyond semantic alignment.
 
+
 <div align="center">
 
-[![⭐ HP Model](https://img.shields.io/badge/⭐-HP%20Reward%20Model-blue.svg?style=for-the-badge)](https://huggingface.co/8y/HP)
+[![🎨 Pick-High Dataset](https://img.shields.io/badge/🎨-Pick--High%20Dataset-orange.svg?style=for-the-badge)](https://huggingface.co/datasets/8y/Pick-High-Dataset)
+
 </div>
+
 
 ### 🎨 Pick-High Dataset
 
@@ -53,7 +56,7 @@ The **High-Preference (HP) Reward Model** leverages a fine-tuned CLIP backbone c
 
 <div align="center">
 
-![🎨 Pick-High Dataset](https://img.shields.io/badge/🎨-Pick--High%20Dataset%20(Coming%20Soon)-orange.svg?style=for-the-badge)
+![🎨 Pick-High Dataset](https://img.shields.io/badge/🎨-Pick--High%20Dataset%20-orange.svg?style=for-the-badge)(https://huggingface.co/8y/HP)]
 </div>
 
 ## 🛠️ Installation
@@ -192,6 +195,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Resources
 - **🤗 ICT Model**: [8y/ICT - Text-Image Alignment Model](https://huggingface.co/8y/ICT)
 - **🤗 HP Model**: [8y/HP - Aesthetic Quality Model](https://huggingface.co/8y/HP)
+- **🤗 Pick-High Dataset**: [8y/Pick-High-Dataset - High-Quality Dataset](https://huggingface.co/8y/Pick-High-Dataset)
 - **📄 Paper**: [Enhancing Reward Models for High-quality Image Generation: Beyond Text-Image Alignment](https://arxiv.org/abs/2507.19002)
 - **🔗 Base Project**: [PickScore - Pick-a-Pic Dataset and PickScore Model](https://github.com/yuvalkirstain/PickScore)
 
